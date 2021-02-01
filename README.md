@@ -9,3 +9,6 @@ In this repository you will find the following files:
 
 ### controlFlow.py
 5 simple python functions using if, elif and else statements 
+
+### lists.py
+5 simple python function which create and manipulate lists

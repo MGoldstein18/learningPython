@@ -1,6 +1,6 @@
 # Learning Python
 
-I am learning Python and as I learn will add all my practice and work to this repository.
+I am learning Python on CodeCademy and as I learn will add all my practice and work to this repository.
 
 In this repository you will find the following files:
 
@@ -28,3 +28,8 @@ There is a also a series of string methods called to manipulate a string "list" 
 ### dictionaries.py
 
 Create, modify and display a dictionary in Python
+
+### hurricaneChallenge.py
+The hurricane challenge in the CodeCademy course which focuses on loops, lists and dictionaries
+
+

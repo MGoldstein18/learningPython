@@ -27,4 +27,4 @@ There is a also a series of string methods called to manipulate a string "list" 
 
 ### dictionaries.py
 
-Create, edit and display a dictionary in Python
+Create, modify and display a dictionary in Python

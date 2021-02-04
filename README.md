@@ -33,4 +33,5 @@ Create, modify and display a dictionary in Python
 The hurricane challenge in the CodeCademy course which focuses on loops, lists and dictionaries
 
 ### classes.py
-2 python classes - students and grades - to track students in an imaginary school
+2 python classes - students and grades - to track students in an imaginary school and a patient's medical information class
+

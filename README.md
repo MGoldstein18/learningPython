@@ -35,3 +35,5 @@ The hurricane challenge in the CodeCademy course which focuses on loops, lists a
 ### classes.py
 2 python classes - students and grades - to track students in an imaginary school and a patient's medical information class
 
+### files.py
+a CodeCademy challenge opening, creating and using CSV and JSON file

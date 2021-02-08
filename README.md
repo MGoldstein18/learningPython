@@ -38,5 +38,14 @@ The hurricane challenge in the CodeCademy course which focuses on loops, lists a
 ### files.py
 a CodeCademy challenge opening, creating and using CSV and JSON file
 
+### firstSQLstatements.py
+The first few basic statements in the course. 
+
+### movies.py
+Learning about more SQL statements - AS, LIKE, AND, OR, BETWEEN, ORDER BY, LIMIT and CASE
+
+### SQStasks.py
+2 CodeCademy tasks queering a database.
+
 ### BeautifulSoup.py
 Using BeautifulSoup to scrape simulated data 

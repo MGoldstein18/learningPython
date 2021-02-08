@@ -39,13 +39,13 @@ The hurricane challenge in the CodeCademy course which focuses on loops, lists a
 a CodeCademy challenge opening, creating and using CSV and JSON file
 
 ### firstSQLstatements.py
-The first few basic statements in the course. 
+The first few SQL statements in the course. 
 
 ### movies.py
 Learning about more SQL statements - AS, LIKE, AND, OR, BETWEEN, ORDER BY, LIMIT and CASE
 
 ### SQStasks.py
-2 CodeCademy tasks queering a database.
+2 CodeCademy tasks queering a database with SQLite.
 
 ### BeautifulSoup.py
 Using BeautifulSoup to scrape simulated data 

@@ -37,3 +37,6 @@ The hurricane challenge in the CodeCademy course which focuses on loops, lists a
 
 ### files.py
 a CodeCademy challenge opening, creating and using CSV and JSON file
+
+### BeautifulSoup.py
+Using BeautifulSoup to scrape simulated data 

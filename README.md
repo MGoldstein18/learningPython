@@ -52,3 +52,6 @@ Using BeautifulSoup to scrape simulated data
 
 ### pandas.py
 First 3 CodeCademy tasks with Pandas
+
+### groupby.py
+Group by functions with Pandas to aggregate data and generate a pivot table

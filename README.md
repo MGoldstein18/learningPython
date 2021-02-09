@@ -49,3 +49,6 @@ Learning about more SQL statements - AS, LIKE, AND, OR, BETWEEN, ORDER BY, LIMIT
 
 ### BeautifulSoup.py
 Using BeautifulSoup to scrape simulated data 
+
+### pandas.py
+First 3 CodeCademy tasks with Pandas

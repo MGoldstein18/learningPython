@@ -55,3 +55,6 @@ First 3 CodeCademy tasks with Pandas
 
 ### groupby.py
 Group by functions with Pandas to aggregate data and generate a pivot table
+
+## cleaning_data.py
+Cleaning data with glob and pandas

@@ -61,3 +61,6 @@ Cleaning data with glob and pandas
 
 ### categorical.py
 Working with dataframes in pandas to change variable type, set categories and OHE
+
+### numpy.py
+Using numpy to analyse data - average, variance and standard deviation

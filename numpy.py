@@ -1,3 +1,6 @@
+# Task 1
+
+
 import pandas as pd
 import numpy as np
 from weather_data import london_data
@@ -36,3 +39,29 @@ for i in range(1, 13):
           months[i] + " is " + str(np.mean(month)))
     print("The standard deviation of temperature in " +
           months[i] + " is " + str(np.std(month)) + "\n")
+
+
+# Task 2
+mport pandas as pd
+
+car_eval = pd.read_csv('car_eval_dataset.csv')
+print(car_eval.head())
+
+print(car_eval.manufacturer_country.value_counts())
+print(car_eval.manufacturer_country.value_counts(dropna=False, normalize=True))
+
+print(car_eval.buying_cost.unique())
+
+buying_cost_categories = ['low', 'med', 'high', 'vhigh']
+
+car_eval.buying_cost = pd.Categorical(
+    car_eval.buying_cost, buying_cost_categories, ordered=True)
+
+print(buying_cost_categories[int(np.median(car_eval.buying_cost.cat.codes))])
+
+print(car_eval.luggage.value_counts(dropna=False, normalize=True))
+print(car_eval.luggage.value_counts(normalize=True))
+print(car_eval.luggage.value_counts()/len(car_eval.luggage))
+
+print((car_eval.doors == '5more').sum())
+print((car_eval.doors == '5more').mean())

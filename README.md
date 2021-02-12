@@ -64,3 +64,6 @@ Working with dataframes in pandas to change variable type, set categories and OH
 
 ### numpy.py
 Using numpy to analyse data - average, variance and standard deviation
+
+### first_pie_chart.py
+First pie chart using matplotlib and pandas

@@ -42,7 +42,7 @@ for i in range(1, 13):
 
 
 # Task 2
-mport pandas as pd
+import pandas as pd
 
 car_eval = pd.read_csv('car_eval_dataset.csv')
 print(car_eval.head())

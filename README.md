@@ -83,3 +83,6 @@ First pie chart using matplotlib and pandas
 
 ### bar_chart.py
 Bar charts using Seaborn and Pandas
+
+### graphs.py
+An exercise working various graphs using pandas and matplotlib

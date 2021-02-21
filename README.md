@@ -86,3 +86,6 @@ Bar charts using Seaborn and Pandas
 
 ### graphs.py
 An exercise working various graphs using pandas and matplotlib
+
+### hypothesis.py
+Working with Python to test a hypothesis

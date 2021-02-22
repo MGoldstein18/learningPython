@@ -92,3 +92,6 @@ Working with Python to test a hypothesis
 
 ### hypothesis_projects.py
 3 projects using Python to test hypotheses 
+
+### data_visualization.py
+Data visualization with Matplotlib

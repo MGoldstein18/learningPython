@@ -1,3 +1,4 @@
+import numpy as np
 from matplotlib import pyplot as plt
 
 
@@ -60,18 +61,16 @@ plt.savefig('visitors_and_limes_sold.png')
 plt.show()
 
 
-
 # Visualization 3
 
-from matplotlib import pyplot as plt
 
 past_years_averages = [82, 84, 83, 86, 74, 84, 90]
 years = [2000, 2001, 2002, 2003, 2004, 2005, 2006]
 error = [1.5, 2.1, 1.2, 3.2, 2.3, 1.7, 2.4]
 
 
-plt.figure(figsize = (10, 8))
-plt.bar(range(len(years)), past_years_averages, yerr = error, capsize = 5)
+plt.figure(figsize=(10, 8))
+plt.bar(range(len(years)), past_years_averages, yerr=error, capsize=5)
 plt.axis([-0.5, 6.5, 70, 95])
 ax = plt.subplot()
 ax.set_xticks(range(len(years)))
@@ -84,24 +83,23 @@ plt.savefig('my_bar_chart.png')
 plt.show()
 
 
-
-
 # Visualization 4
-from matplotlib import pyplot as plt
 
 unit_topics = ['Limits', 'Derivatives', 'Integrals', 'Diff Eq', 'Applications']
 middle_school_a = [80, 85, 84, 83, 86]
 middle_school_b = [73, 78, 77, 82, 86]
 
+
 def create_x(t, w, n, d):
     return [t*x + w*n for x in range(d)]
+
 
 school_a_x = create_x(2, 0.8, 1, 5)
 school_b_x = create_x(2, 0.8, 2, 5)\
 
 middle_x = [(a + b) / 2 for a, b in zip(school_a_x, school_b_x)]
 
-plt.figure(figsize = (10, 8))
+plt.figure(figsize=(10, 8))
 
 ax = plt.subplot()
 
@@ -118,5 +116,42 @@ plt.xlabel('Unit')
 plt.ylabel('Test Average')
 
 plt.savefig('my_side_by_side.png')
+
+plt.show()
+
+
+# Visualization 5
+
+unit_topics = ['Limits', 'Derivatives', 'Integrals', 'Diff Eq', 'Applications']
+As = [6, 3, 4, 3, 5]
+Bs = [8, 12, 8, 9, 10]
+Cs = [13, 12, 15, 13, 14]
+Ds = [2, 3, 3, 2, 1]
+Fs = [1, 0, 0, 3, 0]
+
+x = range(5)
+
+c_bottom = np.add(As, Bs)
+d_bottom = np.add(c_bottom, Cs)
+f_bottom = np.add(d_bottom, Ds)
+
+plt.figure(figsize=(10, 8))
+
+plt.bar(range(len(unit_topics)), As)
+plt.bar(range(len(unit_topics)), Bs, bottom=As)
+plt.bar(range(len(unit_topics)), Cs, bottom=c_bottom)
+plt.bar(range(len(unit_topics)), Ds, bottom=d_bottom)
+plt.bar(range(len(unit_topics)), Fs, bottom=f_bottom)
+
+ax = plt.subplot()
+ax.set_xticks(range(len(unit_topics)))
+ax.set_xticklabels(unit_topics)
+
+plt.legend(['A', 'B', 'C', 'D', 'F'])
+plt.title('Grade distribution')
+plt.xlabel('Unit')
+plt.ylabel('Number of Students')
+
+plt.savefig('my_stacked_bar.png')
 
 plt.show()

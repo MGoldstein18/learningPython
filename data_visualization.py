@@ -1,5 +1,8 @@
 from matplotlib import pyplot as plt
 
+
+# Visualization 1
+
 x = range(12)
 y1 = range(124, 268, 12)
 y2 = range(175, 475, 25)
@@ -13,7 +16,7 @@ plt.legend(['y1', 'y2'], loc=4)
 plt.show()
 
 
-# Project 2
+# Visualization 2
 
 months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
           "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
@@ -30,7 +33,6 @@ blood_limes_per_month = [75.0, 75.0, 76.0, 71.0,
                          74.0, 77.0, 69.0, 80.0, 63.0, 69.0, 73.0, 82.0]
 
 
-# create your figure here
 plt.figure(figsize=(12, 8))
 x_values = range(len(months))
 
@@ -54,5 +56,29 @@ plt.ylabel('Number of Limes Sold')
 plt.title('Number of Limes Sold Each Month')
 
 plt.savefig('visitors_and_limes_sold.png')
+
+plt.show()
+
+
+
+# Visualization 3
+
+from matplotlib import pyplot as plt
+
+past_years_averages = [82, 84, 83, 86, 74, 84, 90]
+years = [2000, 2001, 2002, 2003, 2004, 2005, 2006]
+error = [1.5, 2.1, 1.2, 3.2, 2.3, 1.7, 2.4]
+
+
+plt.figure(figsize = (10, 8))
+plt.bar(range(len(years)), past_years_averages, yerr = error, capsize = 5)
+plt.axis([-0.5, 6.5, 70, 95])
+ax = plt.subplot()
+ax.set_xticks(range(len(years)))
+ax.set_xticklabels(years)
+plt.title('Final Exam Averages')
+plt.xlabel('Year')
+plt.ylabel('Test Average')
+plt.savefig('my_bar_chart.png')
 
 plt.show()

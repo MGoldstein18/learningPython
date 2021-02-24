@@ -95,3 +95,6 @@ Working with Python to test a hypothesis
 
 ### data_visualization.py
 Data visualization with Matplotlib
+
+### SQLite_practice.py
+Some SQL practice working with simulated Twitch data

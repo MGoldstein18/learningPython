@@ -98,3 +98,6 @@ Data visualization with Matplotlib
 
 ### SQLite_practice.py
 Some SQL practice working with simulated Twitch data
+
+### matplotlib.py
+Some data visualization practice with Matplotlib and Twitch data

@@ -57,7 +57,7 @@ Learning about more SQL statements - AS, LIKE, AND, OR, BETWEEN, ORDER BY, LIMIT
 
 Using BeautifulSoup to scrape simulated data
 
-### pandas.py
+### my_pandas.py
 
 First 3 CodeCademy tasks with Pandas
 
@@ -73,7 +73,7 @@ Cleaning data with glob and pandas
 
 Working with dataframes in pandas to change variable type, set categories and OHE
 
-### numpy.py
+### my_numpy.py
 
 Using numpy to analyse data - average, variance and standard deviation
 
@@ -99,5 +99,8 @@ Data visualization with Matplotlib
 ### SQLite_practice.py
 Some SQL practice working with simulated Twitch data
 
-### matplotlib.py
+### my_matplotlib_practice.py
 Some data visualization practice with Matplotlib and Twitch data
+
+### my_seaborn.py
+Data visualization with Seaborn

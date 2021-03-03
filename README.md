@@ -104,3 +104,6 @@ Some data visualization practice with Matplotlib and Twitch data
 
 ### my_seaborn.py
 Data visualization with Seaborn
+
+### first_nlp_tfidf.py
+First use of NLP in Python using TF-IDF

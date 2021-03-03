@@ -107,3 +107,6 @@ Data visualization with Seaborn
 
 ### first_nlp_tfidf.py
 First use of NLP in Python using TF-IDF
+
+### linear_regression.py
+Linear regression used to predict honey production of bees

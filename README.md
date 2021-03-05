@@ -2,7 +2,7 @@
 
 I am learning Python and Data Science on CodeCademy and as I learn, I add all my work to this repository.
 
-In this repository you will find the following files:
+In this repository are the following files:
 
 ### functions.py
 

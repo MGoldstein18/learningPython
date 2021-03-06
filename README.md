@@ -23,7 +23,7 @@ There is a also a series of string methods called to manipulate a string "list" 
 
 ### string_challenges.py
 
-8 functions which work with strings in different ways
+8 functions which work with strings in different ways.
 
 ### dictionaries.py
 

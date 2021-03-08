@@ -110,3 +110,6 @@ First use of NLP in Python using TF-IDF
 
 ### linear_regression.py
 Linear regression used to predict honey production of bees
+
+### k_nearest_neighbor.py
+Using K Nearest Neighbors model from Scikit-Learn to analyse and predict breast cancer data

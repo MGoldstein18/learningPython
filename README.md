@@ -2,7 +2,7 @@
 
 I am learning Python and Data Science on CodeCademy and as I learn, I add all my work to this repository.
 
-In this repository you will find the following files:
+In this repository are the following files:
 
 ### functions.py
 
@@ -23,7 +23,7 @@ There is a also a series of string methods called to manipulate a string "list" 
 
 ### string_challenges.py
 
-8 functions which work with strings in different ways
+8 functions which work with strings in different ways.
 
 ### dictionaries.py
 

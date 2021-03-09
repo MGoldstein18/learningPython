@@ -113,3 +113,6 @@ Linear regression used to predict honey production of bees
 
 ### k_nearest_neighbor.py
 Using K Nearest Neighbors model from Scikit-Learn to analyse and classify breast cancer data
+
+### logistic_regression.py
+Logistic regression to analyze probability of surviving the titanic tragedy. 

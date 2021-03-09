@@ -116,3 +116,6 @@ Using K Nearest Neighbors model from Scikit-Learn to analyse and classify breast
 
 ### logistic_regression.py
 Logistic regression to analyze probability of surviving the titanic tragedy. 
+
+### bayes_theorem.py
+Using Bayes' Theorem to calculate the probability that a students know the material given that they answered a question in a test correctly

@@ -119,3 +119,6 @@ Logistic regression to analyze probability of surviving the titanic tragedy.
 
 ### bayes_theorem.py
 Using Bayes' Theorem to calculate the probability that a students know the material given that they answered a question in a test correctly
+
+### naive_bayes.py
+Use a Naive Bayes model to analyse emails

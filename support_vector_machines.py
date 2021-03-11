@@ -7,6 +7,8 @@ from svm_visualization import draw_boundary
 from players import aaron_judge, jose_altuve, david_ortiz
 
 # function which takes a dataframe of a player's data and analyses it
+
+
 def strike_zone(dataframe):
     fig, ax = plt.subplots()
 

@@ -122,3 +122,6 @@ Using Bayes' Theorem to calculate the probability that a students know the mater
 
 ### naive_bayes.py
 Use a Naive Bayes model to analyse emails
+
+### support_vector_machines.py
+Using a support vector machine to analyze the strike zones of baseball players

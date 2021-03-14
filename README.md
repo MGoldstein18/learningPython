@@ -1,6 +1,6 @@
 # Learning Python
 
-I am learning Python and Data Science on CodeCademy and as I learn, I add all my work to this repository.
+I am learning Data Science using Python on CodeCademy and as I learn, I add all my work to this repository.
 
 In this repository are the following files:
 

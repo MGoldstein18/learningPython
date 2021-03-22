@@ -137,3 +137,9 @@ Using SQL to analyse data about startups
 
 ### hacker_news_sql.sql
 Analyse data from Hacker News using SQL
+
+### met_sql.sql
+Analysis of data from the Metropolitan Museum of Art
+
+### crypto_sql.sql
+Analyzing transactions of a fictional crypto exchange using sql 

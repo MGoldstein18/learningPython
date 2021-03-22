@@ -134,3 +134,6 @@ Using SQL to query 3 databases of a fictional video streaming company
 
 ### startup_sql.sql
 Using SQL to analyse data about startups
+
+### hacker_news_sql.sql
+Analyse data from Hacker News using SQL

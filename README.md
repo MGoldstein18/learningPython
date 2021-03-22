@@ -131,3 +131,6 @@ Use data from flags of countries to create a decision tree model and test which 
 
 ### more_SQL_practice.sql
 Using SQL to query 3 databases of a fictional video streaming company
+
+### startup_sql.sql
+Using SQL to analyse data about startups

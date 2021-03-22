@@ -128,3 +128,6 @@ Using a support vector machine to analyze the strike zones of baseball players
 
 ### decision_trees.py
 Use data from flags of countries to create a decision tree model and test which depth provides the most accurate model.
+
+### more_SQL_practice.sql
+Using SQL to query 3 databases of a fictional video streaming company

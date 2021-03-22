@@ -1,8 +1,8 @@
 # Learning Python
 
-I am learning Python and Data Science on CodeCademy and as I learn, I add all my work to this repository.
+I am learning Data Science using Python on CodeCademy and as I learn, I add all my work to this repository
 
-In this repository are the following files:
+In this repository there are the following files:
 
 ### functions.py
 
@@ -127,4 +127,4 @@ Use a Naive Bayes model to analyse emails
 Using a support vector machine to analyze the strike zones of baseball players
 
 ### decision_trees.py
-Use data from flags of countries to create a decision tree model and test which depth provides the most accurate model 
+Use data from flags of countries to create a decision tree model and test which depth provides the most accurate model.

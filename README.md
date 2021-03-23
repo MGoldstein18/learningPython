@@ -143,3 +143,6 @@ Analysis of data from the Metropolitan Museum of Art
 
 ### crypto_sql.sql
 Analyzing transactions of a fictional crypto exchange using sql 
+
+### lyft_sql.sql
+Using SQL to analyse data from ride sharing company Lyft

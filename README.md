@@ -146,3 +146,6 @@ Analyzing transactions of a fictional crypto exchange using sql
 
 ### lyft_sql.sql
 Using SQL to analyse data from ride sharing company Lyft
+
+### climate_sql.sql
+Analyzing temperature data for states in the USA over the last +-100 year

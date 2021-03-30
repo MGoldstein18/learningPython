@@ -149,3 +149,6 @@ Using SQL to analyse data from ride sharing company Lyft
 
 ### climate_sql.sql
 Analyzing temperature data for states in the USA over the last +-100 year
+
+### simple_SQL_practice.sql
+Some basic SQL practice - create database, create table, add rows, query data, delete and update data

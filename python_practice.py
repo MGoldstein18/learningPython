@@ -74,3 +74,13 @@ def comp(array1, array2):
         return sorted(i ** 2 for i in array1) == sorted(array2)
     except:
         return False
+
+# check when a population will reach a certain target taking into account percentage growth and people leaving/coming
+
+
+def nb_year(population, percent, aug, target):
+    year = 0
+    while population < target:
+        population += population * percent // 100. + aug
+        year += 1
+    return year

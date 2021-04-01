@@ -34,3 +34,43 @@ def duplicate_encode(word):
 
 def sum_two_smallest_numbers(numbers):
     return sum(sorted(numbers)[:2])
+
+# function to return number of sheep (True values in an array)
+
+
+def count_sheep(sheep):
+    num_sheep = 0
+    for each in sheep:
+        if each == True:
+            num_sheep += 1
+        else:
+            pass
+    return num_sheep
+
+# function to return summation of any number
+
+
+def summation(num):
+    total = 0
+    while num > 0:
+        total += num
+        num -= 1
+    return total
+
+# function to check directions relating to complex backstory
+
+
+def is_valid_walk(walk):
+    if len(walk) == 10 and walk.count('s') == walk.count('n') and walk.count('e') == walk.count('w'):
+        return True
+    else:
+        return False
+
+# function to check if array2 containts the squares of array1
+
+
+def comp(array1, array2):
+    try:
+        return sorted(i ** 2 for i in array1) == sorted(array2)
+    except:
+        return False
